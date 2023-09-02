@@ -13,6 +13,8 @@ use App\Http\Controllers\ProjectController;
 |
 */
 
+
+
 Route::get('/task_management/project/{id}/issues', [ProjectController::class, 'getIssues']);
 
 
