@@ -1,0 +1,39 @@
+
+INSERT INTO issues (title, description, project_id, user_id, created_at, updated_at)
+VALUES
+    ('Başlık 1', 'Açıklama 1', 1, 1, NOW(), NOW()),
+    ('Başlık 2', 'Açıklama 2', 1, 2, NOW(), NOW()),
+    ('Başlık 3', 'Açıklama 3', 2, 3, NOW(), NOW()),
+    ('Başlık 4', 'Açıklama 4', 2, 4, NOW(), NOW()),
+    ('Başlık 5', 'Açıklama 5', 3, 5, NOW(), NOW());
+-- Daha fazla veri eklemek için bu örnekleri çoğaltabilirsiniz.
+
+
+
+-- Örnek projects tablosu veri ekleme SQL kodu
+INSERT INTO projects (name, description, created_at, updated_at)
+VALUES
+    ('Proje 1', 'Proje 1 Açıklama', NOW(), NOW()),
+    ('Proje 2', 'Proje 2 Açıklama', NOW(), NOW()),
+    ('Proje 3', 'Proje 3 Açıklama', NOW(), NOW()),
+    ('Proje 4', 'Proje 4 Açıklama', NOW(), NOW()),
+    ('Proje 5', 'Proje 5 Açıklama', NOW(), NOW());
+-- Daha fazla veri eklemek için bu örnekleri çoğaltabilirsiniz.
+
+
+
+-- Örnek users tablosu veri ekleme SQL kodu
+INSERT INTO users (name, email, created_at, updated_at)
+VALUES
+    ('John Doe', 'john.doe@example.com', NOW(), NOW()),
+    ('Jane Smith', 'jane.smith@example.com', NOW(), NOW()),
+    ('Michael Johnson', 'michael.johnson@example.com', NOW(), NOW()),
+    ('Emily Brown', 'emily.brown@example.com', NOW(), NOW()),
+    ('William Lee', 'william.lee@example.com', NOW(), NOW());
+-- Daha fazla veri eklemek için bu örnekleri çoğaltabilirsiniz.
+
+
+
+http://127.0.0.1:8000/api/documentation
+
+
